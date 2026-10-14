@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    color: #353543;
+}
+/** Navbar **/
+
+.navbar{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Box 1 */
+
+.nav-logo{
+    background-image: url("meesho-logo.jpg");
+    height: 70px;
+    width: 160px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+/* Box 2 */
+
+.searchbar{
+    height: 45px;
+    width: 600px;
+    margin-top: 20px;
+    font-size: 0.95rem;
+    border-radius: 3px;
+}
+.nav-searchbar i{
+    position: absolute;
+    margin-left: 7px;
+    margin-top: 32px;
+    font-size: 25px;
+    color: rgb(194, 190, 190);
+}
+
+/* Box 3 */
+
+.nav-supplier{
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 1.3;
+}
+.line1{
+    height: 50px;
+    width: 3.5px ;
+    background-color: #d0d0d0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/* Box 4 */
+
+.nav-investor{
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 1.3;
+}
+.line2{
+    height: 50px;
+    width: 3.5px ;
+    background-color: #d0d0d0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Box 5 */
+
+.nav-profile{
+    margin-top: 20px;
+}
+.user-logo i{
+    font-size: 25px;
+}
+.user-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-logo span{
+    margin-top: 3px;
+    font-size: 1rem;
+}
+
+/* Box 6 */
+
+.nav-cart{
+    margin-top: 20px;
+}
+.nav-cart-logo i{
+    font-size: 25px;
+}
+.nav-cart-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-cart-logo span{
+    margin-top: 3px;
+    font-size: 1rem;
+}
+
+hr{
+    margin-top: 15px;
+    opacity: 0.5;
+}
+
+
+/** Nav-Panel **/
+
+
+.nav-panel{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-items a{
+    margin-right: 30px;
+    text-decoration: none;
+    position: relative;
+}
+.panel-items a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    bottom: -18px;
+    height: 3px;
+    background-color: #c2188b;
+    transition: width 0.2s ease;
+}
+.panel-items a:hover::after{
+    width: 100%;
+}
+
+
+/** Hero Section **/
+
+.hero{
+    height: 450px;
+}
+.hero-image{
+    background-image: url("hero-image.png");
+    position: relative;
+    background-repeat: none;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+/* Hero Panel */
+
+.hero-panel{
+    height: 70px;
+    background-color: #fdeefa;
+    display: flex;
+}
+.inner-panel{
+    height: 45px;
+    background-color: white;
+    width: 98%;
+    margin-top: 13px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid #edb5e2;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-panel i{
+    color: #c2188b;
+    margin-right: 10px;
+}
+.inner-panel p{
+    margin-right: 70px;
+}
+
+
+/* Shopping Section 1 */
+
+.shopping1{
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.shopping-box{
+    height: 148px;
+    width: 148px;
+    transition: transform 0.3 ease-in-out;
+}
+.shopping-box a{
+    font-size: 0.9rem;
+    display: flex;
+    margin-top: 165px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.shopping-box:hover{
+    transform: scale(1.1);
+}
+
+/* Hero Image 2 */
+
+.hero-image2{
+    height: 650px;
+    background-image: url(hero-image2.png);
+    width: 100%;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+/* Shopping Section 2*/
+
+.shopping2{
+    height: 475px;
+}
+.original-brands{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.OB{
+    font-weight: 200px;
+    font-size: 2rem;
+}
+.original-brands i{
+    color: rgb(115, 23, 244);
+    margin-left: 7px;
+    font-size: 1.3rem;
+}
+.original-brands a{
+    margin-left: 1200px;
+    color:#c2188b;
+    font-size: 1.2rem;
+}
+
+/* Products */
+
+.products{
+    height: 475px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 300px;
+    width: 225px;
+    background-size: cover;
+}
